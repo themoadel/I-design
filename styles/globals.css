@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+code {
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Lato", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 1px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer;
+}
+
+.main {
+  background-color: #0b5858;
+  z-index: 1;
+  position: relative;
+  font-family: "Lato", sans-serif;
+  min-height: 100vh;
+}
+* {
+  font-family: "Lato", sans-serif;
+}
+
+@media (width < 1600px) {
+  * {
+    font-size: 12px;
+  }
+}
+@media (1600px <= width < 1800px) {
+  * {
+    font-size: 14px;
+  }
+}
+input,
+textarea,
+select {
+  outline: none;
+}

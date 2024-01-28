@@ -5,7 +5,7 @@ const index = () => {
   return (
     <div className="bg-[#1A1A1A] min-h-[100dvh]  ">
       <div id="about-us" className="px-5 md:px-10 flex justify-between h-auto md:h-[15vh]">
-        <Image className="w-[25vw] md:w-[8vw] xl:w-[8vw]" src="/publicAssets/logo2.png" alt="Picture of the author" width={80} height={80} />
+        <Image className="w-[25vw] h-[25vw] md:w-[8vw] xl:w-[8vw]" src="/publicAssets/logo2.png" alt="Picture of the author" width={80} height={80} />
         <div className="flex  gap-5 py-5 md:py-10 justify-center items-center">
           <Image className="hidden md:block " src="/publicAssets/phone.png" alt="Picture of the author" width={30} height={30} />
           <div className=" border-l md:border-t-0 border-gray-400 px-4 flex flex-col justify-center items-center text-white text-base md:text-2xl py-5 md:py-0">

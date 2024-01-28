@@ -4,7 +4,7 @@ import { Tooltip } from "@mui/material"
 const index = () => {
   return (
     <div className="bg-[#1A1A1A] min-h-[100dvh]  ">
-      <div id="about-us" className="px-5 md:px-10 flex justify-between h-auto md:h-[15vh]">
+      <div id="about-us" className="px-5 md:px-10 flex justify-between items-center h-auto md:h-[15vh]">
         <Image
           className="w-[25vw] h-[25vw] md:h-[8vw] md:w-[8vw] xl:w-[8vw]"
           src="/publicAssets/logo2.png"
